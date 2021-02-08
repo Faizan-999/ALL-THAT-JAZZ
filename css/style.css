@@ -1,0 +1,502 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary,
+time, mark, audio, video, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    outline: none;
+    text-decoration: none !important;
+}
+
+button:focus,
+button:active,
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+
+
+/*  font-family: 'Playfair Display', serif;    */
+
+header{
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /*padding-bottom: 205px;*/
+}
+.navbar .navbar-brand{
+    /*width: 100%;*/
+    /*text-align: center;*/
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: red;
+}
+.banner-text h1{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 18px;
+}
+.banner-text{
+    justify-content: center;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 205px;
+}
+.banner-text p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px;
+    margin-bottom: 32px;
+}
+.banner-text a{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.75;
+    border: solid 1px #ffffff;
+    background-color: #000000;
+    padding: 10px 50px;
+}
+.banner-text .line{
+    width: 17%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+/*---------------------------------------
+   Section one CSS
+-----------------------------------------*/
+.section-one{
+    background-color: #f7f7f7;
+}
+.social{
+    background-color: #000000;
+    position: relative;
+    bottom: 70px;
+}
+.icon-text1{
+    display: flex;
+    justify-content: center;
+}
+.icon-text1 p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    color: #f7f8f8;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.icon-text1 span{
+    font-weight: 300;
+    color: white;
+}
+.icn{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.card-deck{
+    padding-bottom: 65px;
+}
+
+.content-cards h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 29px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 50px;
+}
+.content-cards{
+    padding-top: 73px;
+}
+.card-body .card-title{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #444444;
+}
+.card-body .card-text small{
+    font-size: 12px;
+    font-weight: 300;
+    color: #444444;
+}
+.card-body .card-text {
+    font-size: 14px;
+    font-weight: 200;
+    font-stretch: normal;
+    line-height: 2;
+    color: #777777;
+    padding-bottom: 30px;
+}
+.btn-heart a{
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 13px 30px;
+}
+.btn-heart{
+    display: flex;
+    padding-bottom: 25px;
+}
+.heart11{
+    display: inline;
+    right: 20px;
+    position: absolute;
+}
+.btnsignup{
+    text-align: center;
+    padding-bottom: 56px;
+}
+.btnsignup a{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+    border: solid 3px #000000;
+    background-color: #f7f7f7;
+    padding: 5px 80px;
+    text-transform: uppercase;
+}
+
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+.gallery-section .section-content h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 29px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 70px;
+}
+.section-content{
+    padding-top: 95px;
+}
+.galleryimg{
+    /*margin-left: 0px;*/
+    /*margin-right: 0px;*/
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 5px;
+}
+.viewall{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 116px;
+}
+.viewall a{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+    border: solid 3px #000000;
+    background-color: #f7f7f7;
+    padding: 5px 80px;
+    text-transform: uppercase;
+}
+.rmspace1{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.rmspace2{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.rmspacec{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+.testimonial-section{
+    background-color: #f7f7f7;
+    padding-bottom: 80px;
+}
+.testimonial-content{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.testimonial-content h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 29px;
+    font-weight: bold;
+    color: #000000;
+}
+.testimonial-section .samny{
+    color: #e29714;
+    padding-top: 20px;
+    font-size: 28px;
+    padding-left: 5px;
+}
+.testimonial-content p{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+    padding-top: 26px;
+}
+.testi-text{
+    border: solid 1px #cccccc;
+    background-color: #f7f7f7;
+    padding: 50px 50px;
+}
+.testi-text p{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 2;
+    color: #5b5b5b;
+}
+.carousel-control-next .carousel-control-next-icon{
+    border: 1px solid lightslategray;
+    border-radius: 20px;
+    padding: 20px 20px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+}
+.carousel-control-prev .carousel-control-prev-icon{
+    border: 1px solid lightslategray;
+    border-radius: 20px;
+    padding: 20px 20px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+}
+
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+
+.section-chunk{
+    background-color: #000000;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.section-chunk p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.section-chunk span{
+    font-family: 'Playfair Display', serif;
+    font-size: 29px;
+    font-weight: normal;
+}
+.rightbtn{
+    text-align: right;
+}
+.section-chunk a{
+    border: solid 2px #ffffff;
+    background-color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding: 10px 27px;
+}
+
+
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+.why-we-are{
+    background-color: #f7f7f7;
+    padding-top: 82px;
+}
+.why-we-are h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 29px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 63px;
+}
+.why-we-are p{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 2;
+    color: #666666;
+    padding-bottom: 90px;
+}
+
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+.chunk2{
+    background-image: url("../images/colbg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.chunk2 p{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+}
+.chunk2 h4{
+    font-size: 17px;
+    font-weight: normal;
+    color: #444444;
+    padding-top: 42px;
+}
+.chunk2 h5{
+    font-size: 17px;
+    font-weight: normal;
+    color: #444444;
+    padding-top: 42px;
+}
+.chunk2 h6{
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: #000000;
+    padding-bottom: 35px;
+}
+
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/
+
+.footer-section{
+    background-color: #f7f7f7;
+    padding-top: 66px;
+}
+.footer-section h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+}
+.textbox1{
+    margin-top: 26px;
+    width: 280px;
+    height: 30px;
+    background-color: #898989;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: white;
+    padding-left: 10px;
+    font-style: italic;
+}
+.textbox{
+    margin-top: 12px;
+    width: 280px;
+    height: 30px;
+    background-color: #898989;
+}
+.footer-section h5{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.57;
+    color: #636363;
+    padding-top: 35px;
+}
+.footer-section #tel{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.57;
+    color: #636363;
+    padding-bottom: 51px;
+}
+.footer-section h3{
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+}
+.ftrcontent p{
+    font-size: 12px;
+    font-weight: 200;
+    color: #ffffff;
+}
+.copyright{
+    background-color: #000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.ftrcontent ul li{
+    display: inline;
+    font-size: 12px;
+    font-weight: 200;
+    float: right;
+    color: #ffffff;
+    padding-left: 25px;
+}
+/*.formflex{*/
+    /*display: flex;*/
+/*}*/
+.buton-form{
+    width: auto;
+    height: auto;
+    background-color: #000000;
+    padding: 47px 12px;
+    display: inline;
+    /* margin-top: -30px; */
+    position: relative;
+    bottom: 43px;
+    margin-left: 8px;
+}
+
+/*---------------------------------------
+   General CSS
+-----------------------------------------*/

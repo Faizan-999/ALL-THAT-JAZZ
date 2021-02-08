@@ -1,0 +1,57 @@
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 330px) {
+
+}
+/* For 1024 Resolution */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+{
+    .buton-form{
+        width: auto;
+        background-color: #000000;
+        position: relative;
+        bottom: -11px;
+        padding-left: 115px;
+        padding-right: 115px;
+        margin-top: 12px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+}
+@media only screen
+and (max-device-width : 775px){
+
+    .buton-form{
+        width: auto;
+        height: auto;
+        background-color: #000000;
+        padding: 22px 120px;
+        bottom: -17px;
+    }
+    .section-chunk a{
+        float: left;
+    }
+    .ftrcontent ul li{
+        float: left;
+    }
+}
+@media only screen
+and (min-device-width : 768px){
+    .section-chunk a{
+        float: left;
+    }
+    .ftrcontent ul li{
+        padding-left: 15px;
+    }
+    .icon-text1 p{
+        font-size: 12px;
+    }
+}
